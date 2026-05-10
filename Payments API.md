@@ -20,6 +20,7 @@ https://api.example.com/v1
 
 # Create a Payment
 **POST** `/payments`
+
 Creates a new payment for a customer.
 
 ## Request
