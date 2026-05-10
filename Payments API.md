@@ -31,7 +31,7 @@ Creates a new payment for a customer.
 |Authorization|string|yes|Bearer API key|
 |Content-Type|string|Yes|Must be `application/json`|
 
-## Body
+### Body
 ```json
 {
 "amount": 1000,
@@ -47,8 +47,8 @@ Creates a new payment for a customer.
 |currency|string|Yes|ISO 4217 currency code|
 |customer_id|string|Yes|Unique identifier for the customer|
 
-### Response
-**201 Created**
+## Response
+### 201 Created
 ```json
 {
 "id": "pay_458",
@@ -58,5 +58,22 @@ Creates a new payment for a customer.
 }
 ```
 
+## Error Responses
 
+### 400 Bad Request
+{
+  "error": {
+    "code": "invalid_request",
+    "message": "Amount must be greater than 0"
+  }
+}
 
+### 401 Unauthorized
+```json
+{
+  "error": {
+    "code": "unauthorized",
+    "message": "Invalid API key"
+  }
+}
+```
