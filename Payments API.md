@@ -30,3 +30,33 @@ Creates a new payment for a customer.
 |:--:|:--:|:------:|:---------:|
 |Authorization|string|yes|Bearer API key|
 |Content-Type|string|Yes|Must be `application/json`|
+
+## Body
+```json
+{
+"amount": 1000,
+"currency": "USD",
+"customer_id": "cus_123"
+}
+```
+
+### Parameters
+|Name|Type|Required|Description|
+|:---|:---|:-------|:----------|
+|amount|integer|yes|Amount in cents (e.g., 1000 = $10|
+|currency|string|Yes|ISO 4217 currency code|
+|customer_id|string|Yes|Unique identifier for the customer|
+
+### Response
+**201 Created**
+```json
+{
+"id": "pay_458",
+"status": "succeeded",
+"amount": "1000"
+"currency": "USD"
+}
+```
+
+
+
