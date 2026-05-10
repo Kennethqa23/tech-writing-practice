@@ -9,3 +9,8 @@ All requests must include an API key in the `Authorization` header.
 ```http
 Authorization: Bearer YOUR_API_KEY
 ```
+
+- Keep your API key secure
+- Do not expose it in clien-side code
+
+## Base URL
