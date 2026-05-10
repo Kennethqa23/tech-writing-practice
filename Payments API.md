@@ -17,3 +17,15 @@ Authorization: Bearer YOUR_API_KEY
 ```Bash
 https://api.example.com/v1
 ```
+
+# Create a Payment
+**POST** `/payments`
+Creates a new payment for a customer.
+
+## Request
+
+### Headers
+|Name|Type|Required|Description|
+|:--:|:--:|:------:|:---------:|
+|Authorization|string|yes|Bearer API key|
+|Content-Type|string|Yes|Must be `application/json`|
