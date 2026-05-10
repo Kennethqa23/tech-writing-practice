@@ -11,6 +11,9 @@ Authorization: Bearer YOUR_API_KEY
 ```
 
 - Keep your API key secure
-- Do not expose it in clien-side code
+- Do not expose it in client-side code
 
 ## Base URL
+```Bash
+https://api.example.com/v1
+```
