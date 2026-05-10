@@ -61,12 +61,14 @@ Creates a new payment for a customer.
 ## Error Responses
 
 ### 400 Bad Request
+```json
 {
   "error": {
     "code": "invalid_request",
     "message": "Amount must be greater than 0"
   }
 }
+```
 
 ### 401 Unauthorized
 ```json
