@@ -7,8 +7,9 @@ Este es mi repositorio para practicar documentación técnica.
 Aprender a escribir documentación técnica para desarrolladores.
 
 ## Ejemplo de código
-```json
+```java
 {
-"name": "Juan"
-"email": "kquesada@amherst.com"
+int number = 55;
+String characters = "Hi there";
+boolean isOn = false;
 }
