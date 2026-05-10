@@ -8,15 +8,5 @@ Aprender a escribir documentación técnica para desarrolladores.
 
 ## Ejemplos de código
 
-### Ejemplo 1
-```json
-{
-"number": 55,
-"characters": "Hi there",
-"isOn": false
-}
-```
-
-### Ejemplo 2
-```cmd
-ipconfig
+### Ejemplo 1: Código en línea tipo cmd
+Usa el comando `ipconfig` para ver la red
