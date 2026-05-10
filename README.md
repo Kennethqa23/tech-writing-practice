@@ -13,7 +13,10 @@ Usa el comando `ipconfig` para ver la red
 
 ### Ejemplo 2: Serie de comandos para ejecutar en cmd
 
-```PowerShell
+```cmd
 ipconfig
 ping google.com
 netstat -an
+```
+
+### Ejemplo 3: Serie de comandos para ejecutar en cmd
