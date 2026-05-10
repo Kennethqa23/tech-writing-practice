@@ -11,12 +11,12 @@ Aprender a escribir documentación técnica para desarrolladores.
 ### Ejemplo 1
 ```json
 {
-int number = 55;
-String characters = "Hi there";
-boolean isOn = false;
+"number": 55,
+"characters": "Hi there",
+"isOn": false
 }
 ```
 
 ### Ejemplo 2
-```bash
+```cmd
 ipconfig
